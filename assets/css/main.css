@@ -3379,20 +3379,6 @@ input, select, textarea {
 /* Banner */
 
 	
-	.banner-photo {
-	text-align: center;
-	}
-
-	.banner-photo .photo-caption {
-	margin-top: 0.75em;
-	font-size: 0.6em;
-	line-height: 1.4;
-	color: rgba(255, 255, 255, 0.75);
-	max-width: 280px;
-	margin-left: auto;
-	margin-right: auto;
-	}
-	
 	#banner .banner-flex {
 	display: flex;
 	align-items: center;
@@ -3414,7 +3400,7 @@ input, select, textarea {
 	}
 
 	#banner {
-		padding: 4em 0 4.75em 0 ;
+		padding: 6em 0 4.75em 0 ;
 	}
 
 		#banner .inner {
