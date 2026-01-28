@@ -3379,6 +3379,20 @@ input, select, textarea {
 /* Banner */
 
 	
+	.banner-photo {
+	text-align: center;
+	}
+
+	.banner-photo .photo-caption {
+	margin-top: 0.75em;
+	font-size: 0.6em;
+	line-height: 1.4;
+	color: rgba(255, 255, 255, 0.75);
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
 	#banner .banner-flex {
 	display: flex;
 	align-items: center;
@@ -3842,7 +3856,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -4028,6 +4042,7 @@ input, select, textarea {
 		}
 
 /* Footer */
+	
 
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
@@ -4176,3 +4191,5 @@ input, select, textarea {
 		}
 
 	}
+
+	
